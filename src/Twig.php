@@ -86,7 +86,7 @@ class Twig implements ServiceProviderInterface
     {
         if(! isset($app['configuration']) || ! $app['configuration'] instanceof Configuration)
         {
-            throw new \LogicException('AsseticProvider requires an instance of puzzle/configuration for the key configuration to be defined.');
+            throw new \LogicException(__CLASS__ . ' requires an instance of Puzzle\Configuration (as key "configuration").');
         }
     }
 }
