@@ -5,7 +5,6 @@ namespace Spear\Silex\Provider;
 use Silex\ServiceProviderInterface;
 use Puzzle\Configuration;
 use Silex\Application;
-use Silex\Provider\DoctrineServiceProvider;
 use Silex\Provider\TwigServiceProvider;
 
 class Twig implements ServiceProviderInterface
