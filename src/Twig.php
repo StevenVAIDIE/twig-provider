@@ -9,6 +9,9 @@ use Silex\Provider\TwigServiceProvider;
 
 class Twig implements ServiceProviderInterface
 {
+    private
+        $app;
+
     public function register(Application $app)
     {
         $this->app = $app;
